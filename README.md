@@ -48,7 +48,7 @@ You can add these settings to your settings.json file to disable some of the def
 [BQN]: https://mlochbaum.github.io/BQN/
 [CBQN]: https://github.com/dzaima/CBQN
 [Open VSX Registry]: https://open-vsx.org/extension/razetime/bqn-language
-[VS Code Marketplace]: https://marketplace.visualstudio.com/items?itemName=mk12.bqn-language
+[VS Code Marketplace]: https://marketplace.visualstudio.com/items?itemName=mk12.bqn
 [Standard BQN keymap]: https://mlochbaum.github.io/BQN/keymap.html
 [online REPL]: https://mlochbaum.github.io/BQN/try.html
 [nvim-bqn]: https://git.sr.ht/~detegr/nvim-bqn
