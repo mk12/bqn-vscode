@@ -5,17 +5,25 @@ All notable changes to the "bqn-language" extension will be documented in this f
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
-- Block context highlighting for symbols like `𝕨` and `𝕣`
-- inline code execution similar to [nvim-bqn](https://git.sr.ht/~detegr/nvim-bqn)
-- CBQN WASM interpreter bundled with the extension
-- BQNcrate search
+
+Nothing right now.
 
 ## Released
+
+- v0.1.7
+  - Show documentation for system values on hover.
+  - Transfer ownership of the extension to [mk12](https://github.com/mk12).
 - v0.1.6
   - Add BQN language file icon
   - Option to disable backslash completion
 - v0.1.5
   - remove incomplete changes for bqncrate integration
+- (unknown)
+  - _These changes were listed in \[Unreleased\] for a long time. They were probably released somewhere between v0.1.3 and v0.1.5._
+  - Block context highlighting for symbols like `𝕨` and `𝕣`
+  - inline code execution similar to [nvim-bqn](https://git.sr.ht/~detegr/nvim-bqn)
+  - CBQN WASM interpreter bundled with the extension
+  - BQNcrate search
 - v0.1.3
   - Add Latin1 variable support
   - Correct TextMate classes for highlighting

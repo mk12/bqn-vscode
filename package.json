@@ -2,15 +2,15 @@
     "name": "bqn-language",
     "displayName": "BQN language",
     "description": "BQN array programming language support, backslash completion, snippets and code execution",
-    "publisher": "razetime",
+    "publisher": "mk12",
     "icon": "logo.png",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "engines": {
         "vscode": "^1.66.0"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/razetime/bqn-vscode"
+        "url": "https://github.com/mk12/bqn-vscode"
     },
     "categories": [
         "Snippets"
