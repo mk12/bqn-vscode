@@ -1,7 +1,7 @@
 {
-    "name": "bqn-language",
-    "displayName": "BQN language",
-    "description": "BQN array programming language support, backslash completion, snippets and code execution",
+    "name": "bqn",
+    "displayName": "BQN",
+    "description": "(Maintained fork of \"BQN language\") BQN array programming language support, backslash completion, snippets and code execution",
     "publisher": "mk12",
     "icon": "logo.png",
     "version": "0.1.7",
