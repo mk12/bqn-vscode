@@ -1,10 +1,10 @@
 # BQN VS Code plugin
 
-**Development of this extension has moved to [mk12/bqn-vscode](https://github.com/mk12/bqn-vscode). See [#32](https://github.com/razetime/bqn-vscode/issues/32) for details.**
-
 This VS Code extension provides language support for [BQN].
 
 It is available on the [Open VSX Registry] and the [VS Code Marketplace].
+
+_This is the maintained fork of the original BQN extension [razetime/bqn-vscode](https://github.com/razetime/bqn-vscode). See [#32](https://github.com/razetime/bqn-vscode/issues/32) for details._
 
 ## Setup
 This extension has a focus on the [CBQN] implementation. The `REPLXX=1` option
