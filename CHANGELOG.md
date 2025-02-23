@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-Nothing right now.
+- Highlight `'''` and `'(newline)'` correctly, and other regex fixes ([#1](https://github.com/mk12/bqn-vscode/pull/1)).
 
 ## Released
 
