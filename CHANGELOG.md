@@ -6,10 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Highlight `'''` and `'(newline)'` correctly, and other regex fixes ([#1](https://github.com/mk12/bqn-vscode/pull/1)).
+Nothing right now.
 
 ## Released
 
+- v0.1.8 (changes by vylsaz)
+  - Highlight `'''` and `'(newline)'` correctly, and other regex fixes ([#1](https://github.com/mk12/bqn-vscode/pull/1)).
 - v0.1.7
   - Show documentation for system values on hover.
   - Transfer ownership of the extension to [mk12](https://github.com/mk12).
