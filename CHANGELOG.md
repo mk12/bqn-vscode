@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-Nothing right now.
+- Fix bug where typing `\'` (for `↩`) and `\"` (for `˙`) didn't work ([#2](https://github.com/mk12/bqn-vscode/issues/2)).
 
 ## Released
 
