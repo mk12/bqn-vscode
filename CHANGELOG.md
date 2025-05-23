@@ -6,10 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Fix bug where typing `\'` (for `↩`) and `\"` (for `˙`) didn't work ([#2](https://github.com/mk12/bqn-vscode/issues/2)).
+Nothing right now.
 
 ## Released
 
+- v0.1.9
+  - Fix bug where typing `\'` (for `↩`) and `\"` (for `˙`) didn't work ([#2](https://github.com/mk12/bqn-vscode/issues/2)).
 - v0.1.8 (changes by vylsaz)
   - Highlight `'''` and `'(newline)'` correctly, and other regex fixes ([#1](https://github.com/mk12/bqn-vscode/pull/1)).
 - v0.1.7
