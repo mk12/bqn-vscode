@@ -91,8 +91,16 @@ function cmdBackslash(editor: vscode.TextEditor, edit: vscode.TextEditorEdit) {
       }
       return true;
     }
-    const key = change.text;
-    if (key.length !== 1) {
+    let key = change.text;
+    const numChars = key.length;
+    if (numChars === 2 && (key === "''" || key === '""')) {
+      // This is likely an auto-closing pair. See language-configuration.json.
+      // This will also trigger if you paste two quotes, not a big deal.
+      // Ideally we'd retrieve the actual autoClosingPairs that are in effect
+      // (the user can override them) but that's not possible right now:
+      // https://github.com/microsoft/vscode/issues/109919
+      key = key[0];
+    } else if (numChars !== 1) {
       return false;
     }
     const final = change.range.start;
@@ -102,7 +110,7 @@ function cmdBackslash(editor: vscode.TextEditor, edit: vscode.TextEditorEdit) {
     if (initial == undefined) {
       return false;
     }
-    const range = new vscode.Range(initial, final.translate(0, 1));
+    const range = new vscode.Range(initial, final.translate(0, numChars));
     const character = backslashKeymap[key];
     if (character == undefined) {
       return false;
