@@ -16,7 +16,8 @@
         "Snippets"
     ],
     "activationEvents": [
-        "onLanguage:bqn"
+        "onLanguage:bqn",
+        "onView:bqn-glyphs"
     ],
     "main": "./out/extension.js",
     "contributes": {
@@ -168,6 +169,26 @@
                     "description": "Whether backslash completion is enabled or not."
                 }
             }
+        },
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "bqn-sidebar",
+                    "title": "BQN",
+                    "icon": "logo.svg"
+                }
+            ]
+        },
+        "views": {
+            "bqn-sidebar": [
+                {
+                    "id": "bqn-glyphs",
+                    "name": "Glyphs",
+                    "when": "resourceExtname == .bqn",
+                    "icon": "logo.svg",
+                    "type": "webview"
+                }
+            ]
         }
     },
     "scripts": {

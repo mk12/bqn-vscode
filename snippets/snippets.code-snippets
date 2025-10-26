@@ -1,4 +1,12 @@
 {
+  "Function: Conjugate, Add": {
+    "body": ["+"],
+    "prefix": ["+", "conjugate", "add"]
+  },
+  "Function: Negate, Subtract": {
+    "body": ["-"],
+    "prefix": ["-", "negate", "subtract"]
+  },
   "Function: Sign, Multiply": {
     "body": ["×"],
     "prefix": ["\\=", "sign", "multiply"]
@@ -160,8 +168,19 @@
   "Gets: Change": { "body": ["↩"], "prefix": ["\\'", "change"] },
   "Gets: Return": { "body": ["→"], "prefix": ["\\]", "return"] },
   "Separator: Separator": { "body": ["⋄"], "prefix": ["\\;", "separator"] },
+  "Separator: Comma": { "body": [","], "prefix": [",", "comma"] },
+  "Gets: Namespace Field": { "body": ["."], "prefix": [".", "namespace field"] },
+  "Paren: Begin Expression": { "body": ["("], "prefix": ["(", "begin expression"] },
+  "Paren: End Expression": { "body": [")"], "prefix": [")", "end expression"] },
+  "Brace: Begin Block": { "body": ["{"], "prefix": ["{", "begin block"] },
+  "Brace: End Block": { "body": ["}"], "prefix": ["}", "end block"] },
+  "Gets: Next Body": { "body": [";"], "prefix": [";", "next body"] },
+  "Gets: Header": { "body": [":"], "prefix": [":", "header"] },
+  "Gets: Predicate": { "body": ["?"], "prefix": ["?", "predicate"] },
   "Bracket: Begin list": { "body": ["⟨"], "prefix": ["\\(", "begin list"] },
   "Bracket: End list": { "body": ["⟩"], "prefix": ["\\)", "end list"] },
+  "Bracket: Begin array": { "body": ["["], "prefix": ["[", "begin array"] },
+  "Bracket: End array": { "body": ["]"], "prefix": ["]", "end array"] },
   "Ligature: Strand": { "body": ["‿"], "prefix": ["\\ ", "strand"] },
   "Nothing: Nothing": { "body": ["·"], "prefix": ["\\:", "nothing"] },
   "Value: System": { "body": ["•"], "prefix": ["\\0", "system"] },
@@ -208,5 +227,9 @@
   },
   "Nothing: Minus": { "body": ["¯"], "prefix": ["\\9", "minus"] },
   "Nothing: Pi": { "body": ["π"], "prefix": ["\\p", "pi"] },
-  "Nothing: Infinity": { "body": ["∞"], "prefix": ["\\8", "infinity"] }
+  "Nothing: Infinity": { "body": ["∞"], "prefix": ["\\8", "infinity"] },
+  "String: Null": { "body": ["@"], "prefix": ["@", "null"] },
+  "String: Character": { "body": ["'"], "prefix": ["'", "character"] },
+  "String: String": { "body": ["\""], "prefix": ["\"", "string"] },
+  "Comment: Comment": { "body": ["#"], "prefix": ["#", "comment"] }
 }
