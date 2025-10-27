@@ -6,7 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-Nothing right now.
+- (changes by ErikKarlen)
+  - Add a sidebar for entering glyphs ([#3](https://github.com/mk12/bqn-vscode/pull/3))
 
 ## Released
 
