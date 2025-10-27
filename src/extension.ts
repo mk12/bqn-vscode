@@ -30,9 +30,9 @@ export function activate(context: vscode.ExtensionContext) {
   }
 
   // Register the sidebar provider
-  const provider = new GlyphsProvider(context, context.extensionUri);
+  const provider = new GlyphsProvider(context.extensionUri);
   context.subscriptions.push(
-    vscode.window.registerWebviewViewProvider(GlyphsProvider.viewType, provider)
+    vscode.window.registerWebviewViewProvider(GlyphsProvider.viewId, provider)
   );
 }
 
