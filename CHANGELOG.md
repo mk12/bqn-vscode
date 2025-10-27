@@ -6,11 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- (changes by ErikKarlen)
-  - Add a sidebar for entering glyphs ([#3](https://github.com/mk12/bqn-vscode/pull/3))
+Nothing right now.
 
 ## Released
 
+- v0.2.0 (changes by ErikKarlen)
+  - Add a sidebar for entering glyphs ([#3](https://github.com/mk12/bqn-vscode/pull/3))
 - v0.1.9
   - Fix bug where typing `\'` (for `↩`) and `\"` (for `˙`) didn't work ([#2](https://github.com/mk12/bqn-vscode/issues/2)).
 - v0.1.8 (changes by vylsaz)
