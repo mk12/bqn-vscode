@@ -6,10 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Fix the "Shift Before" and "Shift After" glyphs `»` and `«`, which were swapped ([#5](https://github.com/mk12/bqn-vscode/issues/5)).
+Nothing right now.
 
 ## Released
 
+- v0.2.1
+  - Fix the "Shift Before" and "Shift After" glyphs `»` and `«`, which were swapped ([#5](https://github.com/mk12/bqn-vscode/issues/5)).
 - v0.2.0 (changes by ErikKarlen)
   - Add a sidebar for entering glyphs ([#3](https://github.com/mk12/bqn-vscode/pull/3))
 - v0.1.9
