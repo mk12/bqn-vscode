@@ -97,10 +97,10 @@
     "prefix": ["\\d", "range", "windows"]
   },
   "Function: Shift Before": {
-    "body": ["«"],
-    "prefix": ["\\H", "shift before"]
+    "body": ["»"],
+    "prefix": ["\\L", "shift before"]
   },
-  "Function: Shift After": { "body": ["»"], "prefix": ["\\L", "shift after"] },
+  "Function: Shift After": { "body": ["«"], "prefix": ["\\H", "shift after"] },
   "Function: Reverse, Rotate": {
     "body": ["⌽"],
     "prefix": ["\\q", "reverse", "rotate"]
