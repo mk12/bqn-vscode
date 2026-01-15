@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-Nothing right now.
+- Fix the "Shift Before" and "Shift After" glyphs `»` and `«`, which were swapped ([#5](https://github.com/mk12/bqn-vscode/issues/5)).
 
 ## Released
 
